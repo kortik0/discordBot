@@ -1,0 +1,24 @@
+{
+  "name": "naito-marise-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for my task",
+  "main": "index.js",
+  "prettier": {
+    "semi": false
+  },
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Denis Egortsev <egortsev.denis@yandex.ru> (kortiko)",
+  "license": "MIT",
+  "dependencies": {
+    "discord-music-player": "^6.4.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.21.0",
+    "opusscript": "0.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
